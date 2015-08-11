@@ -25,7 +25,7 @@ public class nearbyPOI {
 		
 		
 		String url="https://api.weibo.com/2/place/nearby/pois.json";
-		String param="lat="+latIn+"&long="+lonIn+"&range="+range+"&count=50&access_token=2.006RVPZC0RViKe9cf1b3c7ff0SyT3O";
+		String param="lat="+latIn+"&long="+lonIn+"&range="+range+"&count=50&access_token=";
 		String urlParam=url+"?"+param;
 		//请求get
 		httpGet httpget=new httpGet();
@@ -52,7 +52,7 @@ public class nearbyPOI {
 	while(i<=page){
 		
 		
-		String param2="lat="+latIn+"&long="+lonIn+"&range="+range+"&page="+i+"&count=50&access_token=2.006RVPZC0RViKe9cf1b3c7ff0SyT3O";
+		String param2="lat="+latIn+"&long="+lonIn+"&range="+range+"&page="+i+"&count=50&access_token=";
         String urlNameString = url2 + "?" + param2;
         httpGet httpget2=new httpGet();
 		httpget2.getByString(urlNameString);

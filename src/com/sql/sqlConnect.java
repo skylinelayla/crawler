@@ -14,7 +14,7 @@ public class sqlConnect {
 		 Class.forName("com.mysql.jdbc.Driver");
 	      System.out.println("OK");
 		   String url1="jdbc:mysql://localhost:3306/"+database;
-          Connection conn=DriverManager.getConnection(url1,"root","110292");
+          Connection conn=DriverManager.getConnection(url1,"root","");
           System.out.println("LINK TO DATABASE SUCCESS!");
           return conn;
 	}
