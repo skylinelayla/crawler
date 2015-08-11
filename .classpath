@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="JARFile/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="JARFile/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="JARFile/fluent-hc-4.4.1.jar"/>
+	<classpathentry kind="lib" path="JARFile/htmlparser.jar"/>
+	<classpathentry kind="lib" path="JARFile/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="JARFile/httpclient-cache-4.4.1.jar"/>
+	<classpathentry kind="lib" path="JARFile/httpclient-win-4.4.1.jar"/>
+	<classpathentry kind="lib" path="JARFile/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="JARFile/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="JARFile/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="JARFile/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="JARFile/mysql-connector-java-5.1.17-bin.jar"/>
+	<classpathentry kind="lib" path="JARFile/jsoup-1.7.3.jar"/>
+	<classpathentry kind="lib" path="JARFile/htmlunit-2.14-OSGi.jar"/>
+	<classpathentry kind="lib" path="JARFile/json.jar"/>
+	<classpathentry kind="lib" path="JARFile/xml-apis.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
